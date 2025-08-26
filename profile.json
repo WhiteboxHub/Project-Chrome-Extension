@@ -1,0 +1,15 @@
+{
+    "profiles": {
+      "FirstName": "vijay",
+      "LastName": "chandra",
+      "FullName": "vijay chandra",
+      "Email": "john.doe@example.com",
+      "Location (City)": " New York 123 Main St",
+      "Phone": "555-123-4567",
+      "Salary": "50000",
+      "Gender": "Male",
+      "Linkedin": "https://www.linkedin.com/in/johndoe",
+      "WorkAuth": "Yes"
+    }
+  }
+  

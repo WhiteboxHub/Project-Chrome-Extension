@@ -1,0 +1,145 @@
+
+
+
+ <!-- chrome_extension\popup.html -->
+  
+<html>
+    <head>
+        <style>
+            .form-container {
+            min-width: 300px;
+            margin: 0 auto;
+          }
+
+          .form-group {
+            margin-bottom: 10px;
+          }
+
+          .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+          }
+
+          .form-group input {
+            width: 100%;
+            padding: 5px;
+          }
+
+          .btn-save {
+            margin-top: 10px;
+            padding: 5px 10px;
+          }
+          .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .header button{
+            min-width: 60px;
+            height: 36px;
+            font-weight: bold;
+            color: red;
+          }
+        </style>
+    </head>
+    <body>
+        <script src="popup.js">
+        </script>
+        <h1>
+            Apply Helper
+        </h1>
+        <div class="header">
+             <button id="open-jobs">
+                Open jobs
+            </button>
+            <div class="header">
+                <button id="open-jobs">Open Jobs</button>
+                <button id="fill-it">Refill</button>
+              </div>
+          
+        </div>
+        <div class="form-container">
+            <h2>
+                My Profile
+            </h2>
+            <div class="form-group">
+                <label for="first-name">
+                    First Name
+                </label>
+                <input id="first-name" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="last-name">
+                    Last Name
+                </label>
+                <input id="last-name" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="email">
+                    Email
+                </label>
+                <input id="email" type="email"/>
+            </div>
+            <div class="form-group">
+                <label for="phone">
+                    Phone
+                </label>
+                <input id="phone" type="tel"/>
+            </div>
+            <div class="form-group">
+                <label for="salary">
+                    Salary
+                </label>
+                <input id="salary" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="location">
+                    Location (City)
+                </label>
+                <input id="location" type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="">Select...</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="linkedin">LinkedIn Profile</label>
+                <input id="linkedin" type="url"/>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">
+                    Resume
+                </label>
+                <input id="resume" type="file">
+                </input>
+                <span id="uploaded-resume"></span>
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="work-authorization">
+                Are you legally authorized to work for any employer in the United States?
+              </label>
+              <select id="work-authorization">
+                <option value="">Select...</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+        >
+            <button class="btn-save">
+                Save
+            </button>
+        </div>
+    </body>
+</html>
