@@ -1,5 +1,4 @@
 
-// chrome_extension\scripts\content.js
 class ElementFinder {
     regexValues;
     constructor() {
